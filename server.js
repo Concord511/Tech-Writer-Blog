@@ -28,7 +28,7 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 app.use(session(sess));
 
-app.use(routes)
+app.use(require('./controllers'));
 
 //turn on connection to the database and server
 sequelize.sync({ force: fals }).then(() => {
