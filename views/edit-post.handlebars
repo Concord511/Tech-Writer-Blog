@@ -6,6 +6,7 @@
     <form class="form-edit-post">
         <div>
             <input name="post-title" type="text" value="{{post.title}}" />
+            <input name="post-content" type="text" value="{{post.content}}" />
         </div>
         <div>
             Posted by you on {{format_date post.created_at}}
@@ -19,7 +20,7 @@
 
 <form class="comment-form">
     <div>
-        <textarea name="comment-body"></textarea>
+        <textarea name="comment-content"></textarea>
     </div>
 
     <div>
