@@ -5,7 +5,7 @@ const { post } = require('./home-routes');
 
 // get all posts for dashboard
 router.get('/', withAuth, (req, res) => {
-    post.findAll({
+    Post.findAll({
         where: {
             user_id: req.session.user_id
         },
