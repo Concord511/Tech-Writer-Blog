@@ -17,6 +17,8 @@ This is a simple blog that allows for user creation and authentication, blog pos
 
 This project is deployed live at: https://powerful-shore-89983.herokuapp.com/
 
+Screenshot ![Tech Writer Blog](./public/assets/screenshot.png)
+
 ## Installation
 
 You will need to install using node.js. NPM dependancies are listed in package.json.
